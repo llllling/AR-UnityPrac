@@ -10,9 +10,13 @@ _유니티 버전 : 2022.3.14_
 
 ## SolarSystem
 
-### 기본 셋팅
+AR 콘텐츠를 개발하려면 AR SDK가 필요함.
 
-- Vuforia AR SDK[https://www.notion.so/Vuforia-AR-SDK-613e3bf3c5c641a99ba2b4dec6254206] : AR 콘텐츠를 개발하려면 AR SDK가 필요함. 해당 프로젝트에선 퀄컴에서 개발한 Vuforia AR SDK 사용함
+해당 프로젝트에선 퀄컴에서 개발한 Vuforia AR SDK 사용함
+
+그래서 아래 정리한 내용들에 해당 패키지 사용법에 관한 설명이 많음.([vf]라고 표기함)
+
+이 프로젝트 진행하면서 Vuforia AR SDK 정리한 내용 => https://www.notion.so/Vuforia-AR-SDK-613e3bf3c5c641a99ba2b4dec6254206
 
 ### 개념적
 
@@ -22,6 +26,9 @@ _유니티 버전 : 2022.3.14_
 * 마커(Marker)[https://www.notion.so/2ff654186fca4e718887606d7eb610b6]
   - 마커 : 현실 세계에서 카메라가 특정 객체를 인식하기 위한 식별자 역할을 하며 단순한 이미지, 3D 오브젝트, 텍스트 등이 마커가 될 수 있다.
   - 증강현실 콘텐츠의 개발 방식은 좁은 의미로 본다면 마커를 사용하는 방식과 마커를 사용하지 않는 마커리스 방식으로 구분함.
+* [vf] AR Camera 프리팹 : Vuforia는 별도의 카메라 프리팹을 제공하고 있기 때문에 Main Camera는 삭제하고 Game Object(하이어라키 창에서 +) > Vuforia Engine > AR Camera 선택하여 카메라 프리팹 추가
+* [vf] Image Target : Single Image 마커를 인식해 특정 객체를 활성화하는 역할
+  - Game Object > Vuforia Engine > Image Target
 
 ### 스크립트
 
