@@ -8,9 +8,14 @@
 
 ## SolarSystem
 
-### 개념적
+### 기본 셋팅
 
 - Vuforia AR SDK[https://www.notion.so/Vuforia-AR-SDK-613e3bf3c5c641a99ba2b4dec6254206] : AR 콘텐츠를 개발하려면 AR SDK가 필요함. 해당 프로젝트에선 퀄컴에서 개발한 Vuforia AR SDK 사용함
+
+### 개념적
+
+- Trail Renderer 컴포넌트 : 움직이는 게임 오브젝트 뒤에 폴리곤 트레일을 렌더링함
+  - width 속성 : 커브 에디터를 사용해 시작 부분과 끝 부분의 너비를 설정함.
 
 ### 스크립트
 
