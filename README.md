@@ -29,12 +29,17 @@ AR 콘텐츠를 개발하려면 AR SDK가 필요함.
 * [vf] AR Camera 프리팹 : Vuforia는 별도의 카메라 프리팹을 제공하고 있기 때문에 Main Camera는 삭제하고 Game Object(하이어라키 창에서 +) > Vuforia Engine > AR Camera 선택하여 카메라 프리팹 추가
 * [vf] Image Target : Single Image 마커를 인식해 특정 객체를 활성화하는 역할
   - Game Object > Vuforia Engine > Image Target
+* **AR 환경에서 UI**
 
 ### 스크립트
 
 - [vf] ITrackableEventHandler : AR 카메라의 트래킹 이벤트를 받으려면 이 인터페이스를 명시해야 함.
 
+* LateUpdate() : 모든 Update 함수가 호출된 후, 마지막으로 호출된다. 주로 오브젝트를 따라가게 설정한 카메라는 LateUpdate 를 사용함.(카메라가 따라가는 오브젝트가 Update함수 안에서 움직일 경우가 있기 때문)
+
 ### 기타
+
+- Text Mesh Pro 한글 깨짐 현상 해결[https://www.notion.so/Text-Mesh-Pro-81b566e747a34e34862fb52e95baa2e7] : 텍스트 메시 프로를 사용할 때, 아래와 같이 한글이 깨져서 네모로 나오는 현상이 발생한다. LiberationSans SDF 기본 폰트가 한글을 지원하지 않기 때문에 발생하는 현상 => 한글을 지원하는 폰트로 교체
 
 # 프로젝트 이외의 꿀팁
 
