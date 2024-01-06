@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 186159845}
   - component: {fileID: 186159844}
   - component: {fileID: 186159848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,11 +956,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD0DC\uC591\n\uC9C0\uAD6C\uC640\uC758 \uAC70\uB9AC : 149,600,000 km\n\uD45C\uBA74
+  m_text: "\uD0DC\n\uC9C0\uAD6C\uC640\uC758 \uAC70\uB9AC : 149,600,000 km\n\uD45C\uBA74
     \uC628\uB3C4 : 5,778K\n\uC9C8\uB7C9 : 1989 * 10 ^ 30kg\n\uC911\uB825 : 274m/s^2"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 91b57177f5a760949825d282dc5ff2a3, type: 2}
-  m_sharedMaterial: {fileID: 5829277890457436543, guid: 91b57177f5a760949825d282dc5ff2a3,
+  m_fontAsset: {fileID: 11400000, guid: 92ee52c8a05a5334c905db2ce5983abd, type: 2}
+  m_sharedMaterial: {fileID: 7670852480968116129, guid: 92ee52c8a05a5334c905db2ce5983abd,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
