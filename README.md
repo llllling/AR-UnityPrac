@@ -42,6 +42,21 @@ AR 콘텐츠를 개발하려면 AR SDK가 필요함.
 
 - Text Mesh Pro 한글 깨짐 현상 해결[https://www.notion.so/Text-Mesh-Pro-81b566e747a34e34862fb52e95baa2e7] : 텍스트 메시 프로를 사용할 때, 아래와 같이 한글이 깨져서 네모로 나오는 현상이 발생한다. LiberationSans SDF 기본 폰트가 한글을 지원하지 않기 때문에 발생하는 현상 => 한글을 지원하는 폰트로 교체
 
+## ARFoundation
+
+단일화된 개발 SDK로 멀티플랫폼으로 빌드할 수 있다.
+https://www.notion.so/AR-Foundation-beabeb0b612a40e9ae87d5be4727b1e5
+
+### 개념적
+
+- AR Session : AR 환경의 설정 및 라이프 사이클을 조절하는 역할을 하며 씬에 하나만 존재해야 함.
+- XR Origin : 하위에 현실 세계를 비추는 카메라를 포함
+- AR Default Point Cloud : AR Camera의 영상으로 감지한 Feature Point를 표시하는 역할을 한다.
+
+### 스크립트
+
+### 기타
+
 # 프로젝트 이외의 꿀팁
 
 - **개발 시 필수 단축키**
