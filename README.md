@@ -30,6 +30,8 @@ AR 콘텐츠를 개발하려면 AR SDK가 필요함.
 * [vf] Image Target : Single Image 마커를 인식해 특정 객체를 활성화하는 역할
   - Game Object > Vuforia Engine > Image Target
 * **AR 환경에서 UI**
+* 파티클 시스템 prewarm 속성 :예열기간. 처음부터 입자가 모두 방출된채로 시작할건지/ 서서히 방출하기 시작할건지
+  - looping 속성이 활성화되어있는지 확인하고 prewarm에 체크한다.
 
 ### 스크립트
 
