@@ -1,8 +1,6 @@
-# VR/AR with Unity
+# AR with Unity
 
 절대강좌! 유니티 VR/AR 책의 프로젝트를 진행하면서 배운 것들 정리
-
-_유니티 버전 : 2022.3.14_
 
 # AR
 
@@ -53,9 +51,6 @@ https://www.notion.so/AR-Foundation-beabeb0b612a40e9ae87d5be4727b1e5
 - XR Origin : 하위에 현실 세계를 비추는 카메라를 포함
 - AR Default Point Cloud : AR Camera의 영상으로 감지한 Feature Point를 표시하는 역할을 한다.
 
-### 스크립트
-
-### 기타
 
 # 프로젝트 이외의 꿀팁
 
